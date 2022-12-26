@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB27A46D29594C7400F59A27 /* SwiftBathroomReviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A46C29594C7400F59A27 /* SwiftBathroomReviewsApp.swift */; };
+		EB27A46F29594C7400F59A27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A46E29594C7400F59A27 /* ContentView.swift */; };
+		EB27A47129594C7500F59A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB27A47029594C7500F59A27 /* Assets.xcassets */; };
+		EB27A47429594C7500F59A27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB27A47329594C7500F59A27 /* Preview Assets.xcassets */; };
+		EB27A47E29594C7500F59A27 /* SwiftBathroomReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A47D29594C7500F59A27 /* SwiftBathroomReviewsTests.swift */; };
+		EB27A48829594C7500F59A27 /* SwiftBathroomReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A48729594C7500F59A27 /* SwiftBathroomReviewsUITests.swift */; };
+		EB27A48A29594C7500F59A27 /* SwiftBathroomReviewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A48929594C7500F59A27 /* SwiftBathroomReviewsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB27A47A29594C7500F59A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB27A46129594C7400F59A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB27A46829594C7400F59A27;
+			remoteInfo = SwiftBathroomReviews;
+		};
+		EB27A48429594C7500F59A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB27A46129594C7400F59A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB27A46829594C7400F59A27;
+			remoteInfo = SwiftBathroomReviews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB27A46929594C7400F59A27 /* SwiftBathroomReviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBathroomReviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB27A46C29594C7400F59A27 /* SwiftBathroomReviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBathroomReviewsApp.swift; sourceTree = "<group>"; };
+		EB27A46E29594C7400F59A27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB27A47029594C7500F59A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB27A47329594C7500F59A27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB27A47929594C7500F59A27 /* SwiftBathroomReviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBathroomReviewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB27A47D29594C7500F59A27 /* SwiftBathroomReviewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBathroomReviewsTests.swift; sourceTree = "<group>"; };
+		EB27A48329594C7500F59A27 /* SwiftBathroomReviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBathroomReviewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB27A48729594C7500F59A27 /* SwiftBathroomReviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBathroomReviewsUITests.swift; sourceTree = "<group>"; };
+		EB27A48929594C7500F59A27 /* SwiftBathroomReviewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBathroomReviewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB27A46629594C7400F59A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB27A47629594C7500F59A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB27A48029594C7500F59A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB27A46029594C7400F59A27 = {
+			isa = PBXGroup;
+			children = (
+				EB27A46B29594C7400F59A27 /* SwiftBathroomReviews */,
+				EB27A47C29594C7500F59A27 /* SwiftBathroomReviewsTests */,
+				EB27A48629594C7500F59A27 /* SwiftBathroomReviewsUITests */,
+				EB27A46A29594C7400F59A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB27A46A29594C7400F59A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB27A46929594C7400F59A27 /* SwiftBathroomReviews.app */,
+				EB27A47929594C7500F59A27 /* SwiftBathroomReviewsTests.xctest */,
+				EB27A48329594C7500F59A27 /* SwiftBathroomReviewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB27A46B29594C7400F59A27 /* SwiftBathroomReviews */ = {
+			isa = PBXGroup;
+			children = (
+				EB27A46C29594C7400F59A27 /* SwiftBathroomReviewsApp.swift */,
+				EB27A46E29594C7400F59A27 /* ContentView.swift */,
+				EB27A47029594C7500F59A27 /* Assets.xcassets */,
+				EB27A47229594C7500F59A27 /* Preview Content */,
+			);
+			path = SwiftBathroomReviews;
+			sourceTree = "<group>";
+		};
+		EB27A47229594C7500F59A27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB27A47329594C7500F59A27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB27A47C29594C7500F59A27 /* SwiftBathroomReviewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB27A47D29594C7500F59A27 /* SwiftBathroomReviewsTests.swift */,
+			);
+			path = SwiftBathroomReviewsTests;
+			sourceTree = "<group>";
+		};
+		EB27A48629594C7500F59A27 /* SwiftBathroomReviewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB27A48729594C7500F59A27 /* SwiftBathroomReviewsUITests.swift */,
+				EB27A48929594C7500F59A27 /* SwiftBathroomReviewsUITestsLaunchTests.swift */,
+			);
+			path = SwiftBathroomReviewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB27A46829594C7400F59A27 /* SwiftBathroomReviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB27A48D29594C7500F59A27 /* Build configuration list for PBXNativeTarget "SwiftBathroomReviews" */;
+			buildPhases = (
+				EB27A46529594C7400F59A27 /* Sources */,
+				EB27A46629594C7400F59A27 /* Frameworks */,
+				EB27A46729594C7400F59A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBathroomReviews;
+			productName = SwiftBathroomReviews;
+			productReference = EB27A46929594C7400F59A27 /* SwiftBathroomReviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB27A47829594C7500F59A27 /* SwiftBathroomReviewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB27A49029594C7500F59A27 /* Build configuration list for PBXNativeTarget "SwiftBathroomReviewsTests" */;
+			buildPhases = (
+				EB27A47529594C7500F59A27 /* Sources */,
+				EB27A47629594C7500F59A27 /* Frameworks */,
+				EB27A47729594C7500F59A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB27A47B29594C7500F59A27 /* PBXTargetDependency */,
+			);
+			name = SwiftBathroomReviewsTests;
+			productName = SwiftBathroomReviewsTests;
+			productReference = EB27A47929594C7500F59A27 /* SwiftBathroomReviewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB27A48229594C7500F59A27 /* SwiftBathroomReviewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB27A49329594C7500F59A27 /* Build configuration list for PBXNativeTarget "SwiftBathroomReviewsUITests" */;
+			buildPhases = (
+				EB27A47F29594C7500F59A27 /* Sources */,
+				EB27A48029594C7500F59A27 /* Frameworks */,
+				EB27A48129594C7500F59A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB27A48529594C7500F59A27 /* PBXTargetDependency */,
+			);
+			name = SwiftBathroomReviewsUITests;
+			productName = SwiftBathroomReviewsUITests;
+			productReference = EB27A48329594C7500F59A27 /* SwiftBathroomReviewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB27A46129594C7400F59A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EB27A46829594C7400F59A27 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					EB27A47829594C7500F59A27 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = EB27A46829594C7400F59A27;
+					};
+					EB27A48229594C7500F59A27 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = EB27A46829594C7400F59A27;
+					};
+				};
+			};
+			buildConfigurationList = EB27A46429594C7400F59A27 /* Build configuration list for PBXProject "SwiftBathroomReviews" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB27A46029594C7400F59A27;
+			productRefGroup = EB27A46A29594C7400F59A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB27A46829594C7400F59A27 /* SwiftBathroomReviews */,
+				EB27A47829594C7500F59A27 /* SwiftBathroomReviewsTests */,
+				EB27A48229594C7500F59A27 /* SwiftBathroomReviewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB27A46729594C7400F59A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27A47429594C7500F59A27 /* Preview Assets.xcassets in Resources */,
+				EB27A47129594C7500F59A27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB27A47729594C7500F59A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB27A48129594C7500F59A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB27A46529594C7400F59A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27A46F29594C7400F59A27 /* ContentView.swift in Sources */,
+				EB27A46D29594C7400F59A27 /* SwiftBathroomReviewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB27A47529594C7500F59A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27A47E29594C7500F59A27 /* SwiftBathroomReviewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB27A47F29594C7500F59A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB27A48A29594C7500F59A27 /* SwiftBathroomReviewsUITestsLaunchTests.swift in Sources */,
+				EB27A48829594C7500F59A27 /* SwiftBathroomReviewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB27A47B29594C7500F59A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB27A46829594C7400F59A27 /* SwiftBathroomReviews */;
+			targetProxy = EB27A47A29594C7500F59A27 /* PBXContainerItemProxy */;
+		};
+		EB27A48529594C7500F59A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB27A46829594C7400F59A27 /* SwiftBathroomReviews */;
+			targetProxy = EB27A48429594C7500F59A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB27A48B29594C7500F59A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB27A48C29594C7500F59A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB27A48E29594C7500F59A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftBathroomReviews/Preview Content\"";
+				DEVELOPMENT_TEAM = 8977948DH7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftBathroomReviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB27A48F29594C7500F59A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftBathroomReviews/Preview Content\"";
+				DEVELOPMENT_TEAM = 8977948DH7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftBathroomReviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB27A49129594C7500F59A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8977948DH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftBathroomReviewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBathroomReviews.app/SwiftBathroomReviews";
+			};
+			name = Debug;
+		};
+		EB27A49229594C7500F59A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8977948DH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftBathroomReviewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBathroomReviews.app/SwiftBathroomReviews";
+			};
+			name = Release;
+		};
+		EB27A49429594C7500F59A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8977948DH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftBathroomReviewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftBathroomReviews;
+			};
+			name = Debug;
+		};
+		EB27A49529594C7500F59A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8977948DH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftBathroomReviewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftBathroomReviews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB27A46429594C7400F59A27 /* Build configuration list for PBXProject "SwiftBathroomReviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27A48B29594C7500F59A27 /* Debug */,
+				EB27A48C29594C7500F59A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB27A48D29594C7500F59A27 /* Build configuration list for PBXNativeTarget "SwiftBathroomReviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27A48E29594C7500F59A27 /* Debug */,
+				EB27A48F29594C7500F59A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB27A49029594C7500F59A27 /* Build configuration list for PBXNativeTarget "SwiftBathroomReviewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27A49129594C7500F59A27 /* Debug */,
+				EB27A49229594C7500F59A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB27A49329594C7500F59A27 /* Build configuration list for PBXNativeTarget "SwiftBathroomReviewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB27A49429594C7500F59A27 /* Debug */,
+				EB27A49529594C7500F59A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB27A46129594C7400F59A27 /* Project object */;
+}
