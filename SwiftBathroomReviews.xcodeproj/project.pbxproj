@@ -14,6 +14,11 @@
 		EB27A47E29594C7500F59A27 /* SwiftBathroomReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A47D29594C7500F59A27 /* SwiftBathroomReviewsTests.swift */; };
 		EB27A48829594C7500F59A27 /* SwiftBathroomReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A48729594C7500F59A27 /* SwiftBathroomReviewsUITests.swift */; };
 		EB27A48A29594C7500F59A27 /* SwiftBathroomReviewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A48929594C7500F59A27 /* SwiftBathroomReviewsUITestsLaunchTests.swift */; };
+		EB27A497295952D900F59A27 /* SplashMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A496295952D900F59A27 /* SplashMapView.swift */; };
+		EB27A4992959531A00F59A27 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A4982959531A00F59A27 /* PointOfInterest.swift */; };
+		EB27A49B2959DD2300F59A27 /* SBButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A49A2959DD2300F59A27 /* SBButtonView.swift */; };
+		EB27A49D2959DE6E00F59A27 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A49C2959DE6E00F59A27 /* NeumorphicButtonStyle.swift */; };
+		EB27A49F2959E01400F59A27 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A49E2959E01400F59A27 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		EB27A48329594C7500F59A27 /* SwiftBathroomReviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBathroomReviewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB27A48729594C7500F59A27 /* SwiftBathroomReviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBathroomReviewsUITests.swift; sourceTree = "<group>"; };
 		EB27A48929594C7500F59A27 /* SwiftBathroomReviewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBathroomReviewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB27A496295952D900F59A27 /* SplashMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashMapView.swift; sourceTree = "<group>"; };
+		EB27A4982959531A00F59A27 /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		EB27A49A2959DD2300F59A27 /* SBButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBButtonView.swift; sourceTree = "<group>"; };
+		EB27A49C2959DE6E00F59A27 /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
+		EB27A49E2959E01400F59A27 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				EB27A46C29594C7400F59A27 /* SwiftBathroomReviewsApp.swift */,
 				EB27A46E29594C7400F59A27 /* ContentView.swift */,
+				EB27A49E2959E01400F59A27 /* Utility.swift */,
+				EB27A49C2959DE6E00F59A27 /* NeumorphicButtonStyle.swift */,
+				EB27A49A2959DD2300F59A27 /* SBButtonView.swift */,
+				EB27A496295952D900F59A27 /* SplashMapView.swift */,
+				EB27A4982959531A00F59A27 /* PointOfInterest.swift */,
 				EB27A47029594C7500F59A27 /* Assets.xcassets */,
 				EB27A47229594C7500F59A27 /* Preview Content */,
 			);
@@ -257,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB27A49F2959E01400F59A27 /* Utility.swift in Sources */,
 				EB27A46F29594C7400F59A27 /* ContentView.swift in Sources */,
+				EB27A4992959531A00F59A27 /* PointOfInterest.swift in Sources */,
+				EB27A49D2959DE6E00F59A27 /* NeumorphicButtonStyle.swift in Sources */,
+				EB27A497295952D900F59A27 /* SplashMapView.swift in Sources */,
+				EB27A49B2959DD2300F59A27 /* SBButtonView.swift in Sources */,
 				EB27A46D29594C7400F59A27 /* SwiftBathroomReviewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
