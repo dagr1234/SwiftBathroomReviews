@@ -49,7 +49,7 @@ struct ContentView: View {
                 
                     
                     NavigationLink(
-                        destination: EmptyView())
+                        destination: AddBRFormView())
                                       {
                                         SBButtonView()
                                       }.frame(width : 44, height : 44)
