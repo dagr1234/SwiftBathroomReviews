@@ -19,7 +19,8 @@
 		EB27A49B2959DD2300F59A27 /* SBButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A49A2959DD2300F59A27 /* SBButtonView.swift */; };
 		EB27A49D2959DE6E00F59A27 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A49C2959DE6E00F59A27 /* NeumorphicButtonStyle.swift */; };
 		EB27A49F2959E01400F59A27 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A49E2959E01400F59A27 /* Utility.swift */; };
-		EB27A4A12959F38700F59A27 /* AddBRForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A4A02959F38700F59A27 /* AddBRForm.swift */; };
+		EB27A4A12959F38700F59A27 /* AddBRFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A4A02959F38700F59A27 /* AddBRFormView.swift */; };
+		EB27A4A5295A0D0A00F59A27 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A4A4295A0D0A00F59A27 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,8 @@
 		EB27A49A2959DD2300F59A27 /* SBButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBButtonView.swift; sourceTree = "<group>"; };
 		EB27A49C2959DE6E00F59A27 /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
 		EB27A49E2959E01400F59A27 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		EB27A4A02959F38700F59A27 /* AddBRForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBRForm.swift; sourceTree = "<group>"; };
+		EB27A4A02959F38700F59A27 /* AddBRFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBRFormView.swift; sourceTree = "<group>"; };
+		EB27A4A4295A0D0A00F59A27 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				EB27A46C29594C7400F59A27 /* SwiftBathroomReviewsApp.swift */,
-				EB27A4A02959F38700F59A27 /* AddBRForm.swift */,
+				EB27A4A02959F38700F59A27 /* AddBRFormView.swift */,
 				EB27A46E29594C7400F59A27 /* ContentView.swift */,
+				EB27A4A4295A0D0A00F59A27 /* RatingView.swift */,
 				EB27A49E2959E01400F59A27 /* Utility.swift */,
 				EB27A49C2959DE6E00F59A27 /* NeumorphicButtonStyle.swift */,
 				EB27A49A2959DD2300F59A27 /* SBButtonView.swift */,
@@ -277,8 +280,9 @@
 			files = (
 				EB27A49F2959E01400F59A27 /* Utility.swift in Sources */,
 				EB27A46F29594C7400F59A27 /* ContentView.swift in Sources */,
+				EB27A4A5295A0D0A00F59A27 /* RatingView.swift in Sources */,
 				EB27A4992959531A00F59A27 /* PointOfInterest.swift in Sources */,
-				EB27A4A12959F38700F59A27 /* AddBRForm.swift in Sources */,
+				EB27A4A12959F38700F59A27 /* AddBRFormView.swift in Sources */,
 				EB27A49D2959DE6E00F59A27 /* NeumorphicButtonStyle.swift in Sources */,
 				EB27A497295952D900F59A27 /* SplashMapView.swift in Sources */,
 				EB27A49B2959DD2300F59A27 /* SBButtonView.swift in Sources */,

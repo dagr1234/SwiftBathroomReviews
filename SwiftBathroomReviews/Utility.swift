@@ -35,6 +35,7 @@ public struct Colors {
     public static let LightBlue: Color = Color(hexString: "#cbe7fc")
     public static let Orange  : Color = Color(hexString:  "#d66b32")
     public static let LighterBlue : Color = Color(hexString : "CBE7FD")
+    public static let WaterBlue : Color = Color(hexString : "#5DACD4")
 }
 
 public struct GradientColor {

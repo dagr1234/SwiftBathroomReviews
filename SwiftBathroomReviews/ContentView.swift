@@ -43,17 +43,27 @@ struct ContentView: View {
                     Text("Welcome to Splash!")
                         .font(.title).fontWeight(.heavy).foregroundColor(Color.blue).padding(.top, 67.0)
                     
+                    Text("Find a Bathroom or Water Fountain")
+                            .font(.headline).fontWeight(.heavy).foregroundColor(Color.blue).padding(.top, 67.0)
+                    
+                    
+                    
                 HStack () {
-                    Text("Find a Bathroom or Water Fountain FAST!!")
-                        .font(.headline).fontWeight(.heavy).foregroundColor(Color.red).multilineTextAlignment(.center).padding(0.0)
-                
+                    Text("Add a new Bathroom or Water Fountain:  ")
+                        .font(.headline).fontWeight(.heavy).foregroundColor(Color.green).multilineTextAlignment(.center).padding(0.0)
                     
                     NavigationLink(
-                        destination: AddBRFormView())
+                        destination: AddBRFormView(),
+                        label      :
                                       {
                                         SBButtonView()
-                                      }.frame(width : 44, height : 44)
-                                    .buttonStyle(NeumorphicButtonStyle(bgColor : Colors.LightGreen))
+                                              .frame(width : 44, height : 44)
+                                              .buttonStyle(NeumorphicButtonStyle(bgColor : Colors.LightGreen))
+                                      }
+                    )
+                            
+//                            .frame(width : 44, height : 44)
+//                                    .buttonStyle(NeumorphicButtonStyle(bgColor : Colors.LightGreen)))
                 }
                     
                 SplashMapView()
